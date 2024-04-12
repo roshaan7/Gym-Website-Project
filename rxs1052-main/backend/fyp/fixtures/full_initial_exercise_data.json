@@ -1,0 +1,322 @@
+[
+    {
+        "model": "fyp.exerciseDetails",
+        "pk": 1,
+        "fields": {
+            "exercise_name": "Barbell Bench Press",
+            "target_muscle": "Chest"
+        }
+    },
+    {
+        "model": "fyp.exerciseDetails",
+        "pk": 2,
+        "fields": {
+            "exercise_name": "Dumbbell Bench Press",
+            "target_muscle": "Chest"
+        }
+    },
+    {
+        "model": "fyp.exerciseDetails",
+        "pk": 3,
+        "fields": {
+            "exercise_name": "Incline Barbell Bench Press",
+            "target_muscle": "Chest"
+        }
+    },
+    {
+        "model": "fyp.exerciseDetails",
+        "pk": 4,
+        "fields": {
+            "exercise_name": "Incline Dumbbell Bench Press",
+            "target_muscle": "Chest"
+        }
+    },
+    {
+        "model": "fyp.exerciseDetails",
+        "pk": 5,
+        "fields": {
+            "exercise_name": "High to Low Chest flys",
+            "target_muscle": "Chest"
+        }
+    },
+    {
+        "model": "fyp.exerciseDetails",
+        "pk": 6,
+        "fields": {
+            "exercise_name": "Low to High Chest flys",
+            "target_muscle": "Chest"
+        }
+    },
+    {
+        "model": "fyp.exerciseDetails",
+        "pk": 7,
+        "fields": {
+            "exercise_name": "Middle Chest Fly",
+            "target_muscle": "Chest"
+        }
+    },
+    {
+        "model": "fyp.exerciseDetails",
+        "pk": 8,
+        "fields": {
+            "exercise_name": "Pec Deck Chest Fly",
+            "target_muscle": "Chest"
+        }
+    },
+    {
+        "model": "fyp.exerciseDetails",
+        "pk": 9,
+        "fields": {
+            "exercise_name": "Chest Press machine",
+            "target_muscle": "Chest"
+        }
+    },
+    {
+        "model": "fyp.exerciseDetails",
+        "pk": 10,
+        "fields": {
+            "exercise_name": "Incline Chest Press machine",
+            "target_muscle": "Chest"
+        }
+    },
+    {
+        "model": "fyp.exerciseDetails",
+        "pk": 11,
+        "fields": {
+            "exercise_name": "Deadlift",
+            "target_muscle": "Back"
+        }
+    },
+    {
+        "model": "fyp.exerciseDetails",
+        "pk": 12,
+        "fields": {
+            "exercise_name": "Bent over rows",
+            "target_muscle": "Back"
+        }
+    },
+    {
+        "model": "fyp.exerciseDetails",
+        "pk": 13,
+        "fields": {
+            "exercise_name": "Lat pulldown",
+            "target_muscle": "Back"
+        }
+    },
+    {
+        "model": "fyp.exerciseDetails",
+        "pk": 14,
+        "fields": {
+            "exercise_name": "T bar row",
+            "target_muscle": "Back"
+        }
+    },
+    {
+        "model": "fyp.exerciseDetails",
+        "pk": 15,
+        "fields": {
+            "exercise_name": "Seated Cable row",
+            "target_muscle": "Back"
+        }
+    },
+    {
+        "model": "fyp.exerciseDetails",
+        "pk": 16,
+        "fields": {
+            "exercise_name": "Tricep pushdown",
+            "target_muscle": "Triceps"
+        }
+    },
+    {
+        "model": "fyp.exerciseDetails",
+        "pk": 17,
+        "fields": {
+            "exercise_name": "Chest Dips",
+            "target_muscle": "Chest"
+        }
+    },
+    {
+        "model": "fyp.exerciseDetails",
+        "pk": 18,
+        "fields": {
+            "exercise_name": "Overhead Tricep Extensions",
+            "target_muscle": "Triceps"
+        }
+    },
+    {
+        "model": "fyp.exerciseDetails",
+        "pk": 19,
+        "fields": {
+            "exercise_name": "Close grip bench press",
+            "target_muscle": "Triceps"
+        }
+    },
+    {
+        "model": "fyp.exerciseDetails",
+        "pk": 20,
+        "fields": {
+            "exercise_name": "Dumbbell Bicep curls",
+            "target_muscle": "Biceps"
+        }
+    },
+    {
+        "model": "fyp.exerciseDetails",
+        "pk": 21,
+        "fields": {
+            "exercise_name": "Barbell Bicep curls",
+            "target_muscle": "Biceps"
+        }
+    },
+    {
+        "model": "fyp.exerciseDetails",
+        "pk": 22,
+        "fields": {
+            "exercise_name": "Hammer Curls",
+            "target_muscle": "Biceps"
+        }
+    },
+    {
+        "model": "fyp.exerciseDetails",
+        "pk": 23,
+        "fields": {
+            "exercise_name": "Preacher curls",
+            "target_muscle": "Biceps"
+        }
+    },
+    {
+        "model": "fyp.exerciseDetails",
+        "pk": 24,
+        "fields": {
+            "exercise_name": "Chin ups",
+            "target_muscle": "Biceps"
+        }
+    },
+    {
+        "model": "fyp.exerciseDetails",
+        "pk": 25,
+        "fields": {
+            "exercise_name": "Seated Dumbbell Shoulder press",
+            "target_muscle": "Shoulders"
+        }
+    },
+    {
+        "model": "fyp.exerciseDetails",
+        "pk": 26,
+        "fields": {
+            "exercise_name": "Seated Barbell Shoulder press",
+            "target_muscle": "Shoulders"
+        }
+    },
+    {
+        "model": "fyp.exerciseDetails",
+        "pk": 27,
+        "fields": {
+            "exercise_name": "Standing Shoulder press",
+            "target_muscle": "Shoulders"
+        }
+    },
+    {
+        "model": "fyp.exerciseDetails",
+        "pk": 28,
+        "fields": {
+            "exercise_name": "Seated Shoulder press machine",
+            "target_muscle": "Shoulders"
+        }
+    },
+    {
+        "model": "fyp.exerciseDetails",
+        "pk": 29,
+        "fields": {
+            "exercise_name": "Front raises",
+            "target_muscle": "Shoulders"
+        }
+    },
+    {
+        "model": "fyp.exerciseDetails",
+        "pk": 30,
+        "fields": {
+            "exercise_name": "Lateral raises",
+            "target_muscle": "Shoulders"
+        }
+    },
+    {
+        "model": "fyp.exerciseDetails",
+        "pk": 31,
+        "fields": {
+            "exercise_name": "Shrugs",
+            "target_muscle": "Shoulders"
+        }
+    },
+    {
+        "model": "fyp.exerciseDetails",
+        "pk": 32,
+        "fields": {
+            "exercise_name": "Reverse Fly Pec Deck",
+            "target_muscle": "Shoulders"
+        }
+    },
+    {
+        "model": "fyp.exerciseDetails",
+        "pk": 33,
+        "fields": {
+            "exercise_name": "Face pulls",
+            "target_muscle": "Shoulders"
+        }
+    },
+    {
+        "model": "fyp.exerciseDetails",
+        "pk": 34,
+        "fields": {
+            "exercise_name": "Squats",
+            "target_muscle": "Legs"
+        }
+    },
+    {
+        "model": "fyp.exerciseDetails",
+        "pk": 35,
+        "fields": {
+            "exercise_name": "Leg press",
+            "target_muscle": "Legs"
+        }
+    },
+    {
+        "model": "fyp.exerciseDetails",
+        "pk": 36,
+        "fields": {
+            "exercise_name": "Leg extension",
+            "target_muscle": "Legs"
+        }
+    },
+    {
+        "model": "fyp.exerciseDetails",
+        "pk": 37,
+        "fields": {
+            "exercise_name": "Leg curls",
+            "target_muscle": "Legs"
+        }
+    },
+    {
+        "model": "fyp.exerciseDetails",
+        "pk": 38,
+        "fields": {
+            "exercise_name": "Romanian Deadlifts (RDL)",
+            "target_muscle": "Legs"
+        }
+    },
+    {
+        "model": "fyp.exerciseDetails",
+        "pk": 39,
+        "fields": {
+            "exercise_name": "Calf raises",
+            "target_muscle": "Legs"
+        }
+    },
+    {
+        "model": "fyp.exerciseDetails",
+        "pk": 40,
+        "fields": {
+            "exercise_name": "Pull ups",
+            "target_muscle": "Back"
+        }
+    }
+]

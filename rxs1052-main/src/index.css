@@ -1,0 +1,1200 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.content {
+
+  margin: 0 auto;
+  background-color: rgb(226, 225, 223);
+
+}
+
+.login-content {
+
+  margin: 0 auto;
+  background-color: rgb(255, 255, 255);
+
+}
+
+.friend-content {
+
+  margin: 0 auto;
+  background-color: rgb(226, 225, 223);
+  height: 100vh;
+
+}
+
+.weight-content {
+
+  margin: 0 auto;
+  background-color: rgb(226, 225, 223);
+  height: 170vh;
+
+}
+
+.accountHome-container {
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: auto;
+
+}
+
+.website_info {
+
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  padding-top: 80px;
+  background-image: url(../src/components/barbell-fitness-training-gym-sports-600nw-2139742761.webp);
+  
+
+
+} 
+
+.website_info img {
+  
+  height: auto;
+  width: 300px;
+
+}
+
+.main {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  width: 1150px;
+  max-width: 95%;
+
+
+}
+
+.website-info {
+
+  width: 400px;
+
+}
+
+.website-info p {
+
+  color: rgb(250, 250, 250);
+  margin-top: 10px;
+  text-align: center;
+  font-size: 24px;
+
+}
+
+.button-container {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+
+}
+
+.registerButton {
+
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  border: none;
+  background-color: rgb(13, 151, 206);
+  border-radius: 20px;
+  padding: 10px 20px;
+  transition: background-color 0.15s;
+
+
+}
+
+.registerButton:hover {
+
+  background-color: rgb(8, 113, 155);
+  
+
+
+}
+
+.firstHeader {
+
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  font-size: 40px;
+
+}
+
+.fitness_info {
+
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-left: 30px;
+
+}
+
+.fitness_info img {
+
+  height: auto;
+  width: 300px;
+}
+
+.secondHeader {
+
+  color: white;
+  font-weight: bold;
+  text-align: left;
+  font-size: 24px;
+
+}
+
+.fitness-info {
+
+  width: 450px;
+
+}
+
+.fitness-info p {
+
+  color: rgb(136, 136, 136);
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.heading {
+
+  text-align: center;
+  color: white;
+  text-decoration: underline;
+  margin-bottom: 20px;
+
+}
+
+.first-container {
+
+  
+  display: flex;
+  flex-wrap: wrap;
+  
+
+}
+
+.generalTips {
+
+  max-width: 75%;
+  box-sizing: border-box;
+  margin: 20px auto;
+  padding: 15px;
+  background-color: rgb(13, 151, 206);
+  border: 1px solid black;
+  border-radius: 15px;
+  text-align: left;
+
+
+}
+
+.generalTips h2 {
+
+  color: white;
+  text-decoration: underline;
+  text-align: left;
+  margin-bottom: 20px;
+
+
+}
+
+.generalTips p {
+
+  padding: 8px;
+  color: white;
+  text-align: left;
+
+
+}
+
+.exercise-container {
+
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+
+}
+
+.exercise {
+
+  max-width: 75%;
+  box-sizing: border-box;
+  margin: 20px auto;
+  padding: 15px;
+  background-color: rgb(13, 151, 206);
+  border: 1px solid black;
+  border-radius: 15px;
+  text-align: center;
+
+}
+
+.exercise h2 {
+
+  text-align: center;
+  margin-bottom: 20px;
+  text-decoration: underline;
+  color: white;
+
+}
+
+.exercise img {
+
+
+  max-width: 50%;
+  height: auto;
+  border-radius: 15px;
+  margin-bottom: 15px;
+
+
+}
+
+.exercise p {
+
+  padding: 8px;
+  text-align: left;
+  color: white;
+
+
+}
+
+
+.loginTitle {
+
+  color: black;
+  margin-bottom: 85px;
+  font-family: sans-serif;
+
+}
+
+
+.input-group-1 input::placeholder {
+
+  font-size: 16px;
+  font-family: sans-serif;
+
+}
+
+.showPassword {
+
+  margin-top: 30px;
+
+}
+
+.showPassword input {
+
+  margin-left: 30px;
+
+
+
+}
+
+.Log-button {
+
+  width: 20%;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  margin-top: 100px;
+  background-color: rgb(13, 151, 206);
+  border-radius: 10px;
+  padding: 10px 20px;
+  transition: background-color 0.3s;
+  display: block;
+  margin-left: 40%;
+
+}
+
+.Log-button:hover {
+
+  background-color: rgb(9, 126, 173);
+  
+
+
+}
+
+.CreateAcc {
+
+  width: 40%;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  margin-top: 10px;
+  background-color: rgb(13, 151, 206);
+  border-radius: 10px;
+  padding: 10px 20px;
+  transition: background-color 0.3s;
+  display: block;
+  margin-left: 30%;
+
+}
+
+.CreateAcc:hover {
+
+  background-color: rgb(9, 126, 173);
+  
+
+
+}
+
+.show-password-1 {
+  
+  margin-top: 20px;
+  display: inline-block;
+  margin-left: 10px;
+
+}
+
+.checkbox-1 {
+
+  margin-right: 50px;
+
+}
+
+.register-container {
+
+  width: 100%;
+  max-width: 500px;
+  margin: 105px auto;
+  background: rgb(182, 182, 182);
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(250, 250, 250);
+  border-radius: 20px;
+
+}
+
+.register-container h2 {
+  
+  color: black;
+  text-align: center;
+
+}
+
+.register-container label {
+
+  display: block;
+  margin-bottom: 20px;
+  margin-top: 20px;
+
+}
+
+.register-container p {
+
+  text-align: center;
+
+}
+
+.register-container a {
+
+  text-decoration: none;
+  color: black;
+}
+
+.enterName, .enterEmail, .enterPassword {
+
+  width: 80%;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+
+
+
+}
+
+.submit {
+
+  width: 40%;
+  padding: 10px;
+  border: none;
+  background-color: rgb(13, 151, 206);
+  border-radius: 10px;
+  transition: background-color 0.3s;
+  margin-left: 151px;
+  cursor: pointer;
+  font-size: 16px;
+
+
+}
+
+.submit:hover {
+
+  background-color: rgb(13, 126, 173);
+
+}
+
+.register-container input {
+
+  box-sizing: border-box;
+  width: 90%;
+  margin-left: 20px;
+  padding: 12px 14px;
+  border-radius: 5px;
+  border: none;
+  height: 50px;
+
+
+
+}
+
+.register-container input::placeholder {
+
+  font-size: 16px;
+  font-family: sans-serif;
+
+
+}
+
+.register-container label {
+
+  padding-left: 20px;
+
+
+
+}
+
+.container {
+
+    display: flex;
+}
+
+.weight-container {
+
+  width: 100%;
+  height: 450px;
+  max-width: 550px;
+  margin: 100px auto;
+  background: white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 20px;
+
+}
+
+.notes-container {
+
+  width: 100%;
+  height: 450px;
+  max-width: 550px;
+  margin: 155px auto;
+  margin-left: 30px;
+  background: rgb(13, 126, 173);
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(250, 250, 250);
+  border-radius: 20px;
+
+}
+
+.progress-container {
+
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  margin: 155px auto;
+  background: rgb(13, 126, 173);
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(250, 250, 250);
+  border-radius: 20px;
+
+}
+
+.weightTitle {
+
+  color: black;
+  margin-bottom: 85px;
+  font-family: sans-serif;
+
+}
+
+.userweight-container {
+
+  display: block;
+  width: 250px;
+  height: 150px;
+  text-align: left;
+  
+}
+
+.goals-container {
+
+  display: block;
+  width: 450px;
+  height: 150px;
+  text-align: center;
+  margin-top: 50px;
+  
+
+
+}
+
+.goals-container label{
+  font-size: 20px;
+  padding-right: 20px;
+
+}
+
+.goals-container input {
+  
+}
+
+.current {
+
+  color: black;
+  text-align: center;
+  font-size: 25px;
+  margin: 0;
+
+
+}
+
+.weight {
+
+  color: black;
+  text-align: center;
+  font-size: 20px;
+
+
+
+
+}
+
+.buttons-container {
+
+  display: block;
+  width: 350px;
+  height: 150px;
+}
+
+.account-button {
+
+  padding: 5px 30px;
+  border: none;
+  box-shadow: 5px 5px 5px black;
+  cursor: pointer;
+
+
+}
+
+.set-container {
+
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  margin: 0;
+
+}
+
+.update-container {
+
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  margin-top: 40px;
+
+}
+
+.past-container {
+
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  margin-top: 40px;
+
+}
+
+.modal-header {
+
+  color: white;
+  padding-bottom: 20px;
+  text-decoration: underline;
+
+}
+
+.modal-input-container {
+
+  text-align: left;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+
+
+}
+
+.modal-input-container input {
+
+  box-sizing: border-box;
+  width: 50%;
+  margin-left: 20px;
+  padding: 12px 14px;
+  border-radius: 5px;
+  border: none;
+  height: 50px;
+  text-align: center;
+
+}
+
+.modal-input-container input::placeholder {
+
+  font-size: 16px;
+  font-family: sans-serif;
+  text-align: center;
+
+}
+
+.setWeightPopUp{
+
+  background-color:black;
+  width: 40%;
+  height: 300px;
+  text-align: center;
+  max-width: 100%;
+  margin: auto;
+  position: relative;
+  border: rgb(13, 151, 206) solid;
+  border-radius: 20px;
+}
+
+.updateWeightPopUp{
+
+  background-color:black;
+  width: 40%;
+  height: auto;
+  text-align: center;
+  max-width: 100%;
+  margin: auto;
+  position: relative;
+  border: rgb(13, 151, 206) solid;
+  border-radius: 20px;
+
+}
+
+.updateWeightSuccessPopUp{
+
+  background-color:black;
+  width: 20%;
+  height: 50px;
+  text-align: center;
+  max-width: 100%;
+  margin: auto;
+  position: relative;
+  border: rgb(13, 151, 206) solid;
+  border-radius: 20px;
+
+}
+
+.ErrorPopUp{
+
+  background-color:black;
+  width: 40%;
+  height: 50px;
+  text-align: center;
+  max-width: 100%;
+  margin: auto;
+  position: relative;
+  border: rgb(13, 151, 206) solid;
+  border-radius: 20px;
+
+}
+
+.weightUpdateSuccessContainer{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+
+}
+
+.updateSuccessAlert{
+
+  color: white;
+
+
+}
+
+.pastWeightPopUp{
+
+  background-color:rgb(0, 0, 0);
+  width: 60%;
+  max-height: 650px;
+  text-align: center;
+  max-width: 100%;
+  margin: auto;
+  position: relative;
+  border: rgb(13, 151, 206) solid;
+  border-radius: 20px;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    background: none;
+    color: white;
+}
+
+.overlay {
+
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.75);
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.updateWorkout {
+  position: absolute;
+  top: 10px;
+  right: 80px;
+  cursor: pointer;
+  background: none;
+  color: white;
+}
+
+.shareWorkout {
+  position: absolute;
+  top: 10px;
+  right: 150px;
+  cursor: pointer;
+  background: none;
+  color: white;
+}
+
+.past-container{
+
+  display: block;
+  column-width: 420px;
+  height: 600px;
+
+}
+
+.past-elements {
+
+  display: flex;
+  justify-content: flex-start;
+
+
+}
+
+.past-elements label {
+
+  color: white;
+  padding-left: 25px;
+  padding-top: 10px;
+}
+
+.enterWorkout-container{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+
+
+}
+
+.enterWorkoutPopUp{
+
+  background-color:black;
+  width: 60%;
+  height: auto;
+  text-align: center;
+  max-width: 100%;
+  margin: auto;
+  position: relative;
+  border: rgb(13, 151, 206) solid;
+  border-radius: 20px;
+}
+
+.info-container {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.info-container p {
+
+  color: white;
+  font-size: 14px;
+  text-align: center;
+  margin-left: 10px;
+
+}
+
+.view-workout-container {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+
+.all-exercises-container {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+
+}
+
+.pastWorkout-container {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+
+
+}
+
+.pastWorkout-container label {
+
+  color: white;
+  padding-left: 10px;
+  margin-bottom: 10px;
+
+}
+
+.pastWorkout-remove {
+
+  margin-bottom: 10px;
+  margin-left: 10px;   
+  background-color: rgb(13, 151, 206);
+  border: none;
+  padding: 3px 10px;
+  width: 10%;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  cursor: pointer;
+  
+
+}
+
+.pastWorkout-remove:hover {
+
+  background-color: rgb(13, 126, 173);
+
+}
+
+.viewWorkout-details {
+
+  margin-bottom: 10px;
+  margin-left: 10px;   
+  background-color: rgb(13, 151, 206);
+  border: none;
+  padding: 3px 10px;
+  width: 20%;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  cursor: pointer;
+  
+
+}
+
+.viewWorkout-details:hover {
+
+  background-color: rgb(13, 126, 173);
+
+}
+
+.workoutDetails-container {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.workoutDetails-container label {
+
+  color: white;
+  padding-left: 10px;
+  margin-bottom: 10px;
+
+}
+
+.workoutChoice-container {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+
+}
+
+.setDetails-container {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.setDetails-container label {
+
+  color: white;
+  padding-left: 10px;
+  margin-bottom: 10px;
+
+}
+
+.friend-container {
+
+  width: 100%;
+  height: auto;
+  max-width: 550px;
+  margin: 155px auto;
+  margin-left: 30px;
+  background: rgb(13, 126, 173);
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(250, 250, 250);
+  border-radius: 20px;
+
+
+}
+
+input[type=number] {
+  appearance: textfield;
+}
+
+.sendRequest-button {
+
+  padding: 5px 30px;
+  border: none;
+  box-shadow: 5px 5px 5px black;
+  cursor: pointer;
+  margin-top: 20px;
+
+}
+
+.messageModal {
+
+    background-color:black;
+    width: 40%;
+    height: auto;
+    text-align: center;
+    max-width: 100%;
+    margin: auto;
+    position: relative;
+    border: rgb(13, 151, 206) solid;
+    border-radius: 20px;
+    max-height: 90%;
+    overflow: scroll;
+
+
+}
+
+.messages {
+
+  color: white;
+  text-align: right;
+  padding-right: 10px;
+
+}
+
+.senderMessages {
+
+  color: white;
+  text-align: left;
+  padding-left: 10px;
+
+}
+
+.messageTime {
+
+  font-size: 10px;
+
+}
+
+.date {
+
+  font-size: 10px;
+  color: white;
+  
+
+}
+
+.feed-container {
+
+  height: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+
+
+}
+
+.post-info-container {
+
+  width: 500px;
+  height: auto;
+  max-width: 550px;
+  margin: 40px auto;
+  margin-left: 30px;
+  background: rgb(13, 126, 173);
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(250, 250, 250);
+  border-radius: 20px;
+  position: relative;
+
+
+}
+
+.send-post-container {
+
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+
+
+
+}
+
+.send-post-input {
+
+  width: 500px;
+  height: 150px;
+  max-width: 500px;
+  resize: none;
+  font-size: 14px;
+
+}
+
+.send-post-input::placeholder {
+
+  text-align: left;
+  vertical-align: top;
+
+}
+
+.mypostButton {
+
+  margin-left: 20px;
+
+
+}
+
+.userPosts {
+
+  color: white;
+
+
+}
+
+.comments {
+  
+  color: white;
+
+}
+
+.Hide {
+
+  display: none;
+
+
+}
+
+.username:hover .Hide {
+
+  display: block;
+
+}
+
+.filter {
+
+  margin-left: 20px;
+
+}
+
+.postInfo {
+
+  height: auto;
+
+
+}
+
+.addFriend {
+
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  background: none;
+  color: black;
+  border: none;
+
+}
+
+.fileName {
+  color: black;
+}
+
+.likeImage {
+  width: 50px;
+  cursor: pointer;
+  margin-left: 3rem;
+}
+
+.cardHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #d9d9d9;
+  margin-bottom: 1rem;
+}
+
+.cardTitle {
+  margin-top: 15px;
+  margin-left: 40px;
+}
+
+.cardFooter {
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+  margin-top: 15px;
+}

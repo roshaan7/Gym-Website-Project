@@ -1,0 +1,184 @@
+.header-1 {
+
+    background-color: white;
+    height: 40px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+    text-align: center;
+
+}
+
+.home {
+
+    text-decoration: none;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+
+
+}
+
+.home:hover {
+
+    color: rgb(13, 151, 206);
+
+}
+
+.Logo-container {
+
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 120px;
+    margin-right: 50px;
+
+}
+
+.Logo {
+
+    width: 130%;
+    height: auto;
+    display: inline-block;
+
+}
+
+.Icon-container {
+
+    display: inline-flex;
+    justify-content: space-between;
+    align-items:flex-start;
+    width: 25px;
+    margin-right: 50px;
+    margin-top: 7px;
+
+}
+
+.Icon {
+
+    width: 100%;
+    height: auto;
+    display: inline-block;
+
+}
+
+.menu-container {
+
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: relative;
+    flex-grow: 1;
+}
+.account-container {
+
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    position: relative;
+    flex-grow: 1;
+}
+
+
+.menulist {
+
+    list-style: none;
+    text-align: center;
+    
+
+}
+
+.menuListT {
+
+    display: inline-block;
+    position: relative;
+
+}
+
+.menuListT a {
+
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    transition: all 0.3s ease-in-out;
+    font-family: 'Inter';
+    font-weight: 500;
+    cursor: pointer;
+    text-align: left;
+    display: block;
+    padding-left: 20px;
+}
+
+.menuListT a:hover {
+
+    color: rgb(13, 151, 206);
+
+
+}
+
+.Friends {
+
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    transition: all 0.3s ease-in-out;
+    font-family: 'Inter';
+    font-weight: 500;
+    cursor: pointer;
+    text-align: left;
+    padding-left: 20px;
+
+}
+
+.Friends:hover {
+
+    color: rgb(13, 151, 206);
+
+
+}
+
+
+.logout-container {
+
+
+    display: inline-flex;
+    justify-content: flex-start;
+
+
+
+
+}
+
+.logoutList {
+
+    display: inline-block;
+    position: relative;
+
+
+}
+
+
+
+.logout {
+
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    transition: all 0.3s ease-in-out;
+    font-family: 'Inter';
+    font-weight: 500;
+    cursor: pointer;
+    text-align: left;
+    display: block;
+    padding-left: 17px;
+}
+
+.logout:hover {
+
+    color: rgb(13, 151, 206);
+    
+}
